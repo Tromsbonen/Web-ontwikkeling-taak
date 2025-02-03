@@ -1,183 +1,128 @@
 [
-    {
-      "id": 1,
-      "name": "Dragonite",
-      "description": "A kindhearted Pokémon that can fly incredibly fast.",
-      "powerLevel": 90,
-      "isLegendary": false,
-      "discoveredOn": "1965-07-01",
-      "imageUrl": "https://example.com/dragonite.png",
-      "type": "Dragon/Flying",
-      "moves": ["Dragon Claw", "Hurricane", "Thunder Punch"],
-      "habitat": {
-        "id": 101,
-        "name": "Coastal Areas",
-        "climate": "Temperate",
-        "hasCaves": false,
-        "imageUrl": "https://example.com/coastal.png"
-      }
-    },
-    {
-      "id": 2,
-      "name": "Salamence",
-      "description": "It becomes uncontrollable when it evolves due to its dream of flight coming true.",
-      "powerLevel": 88,
-      "isLegendary": false,
-      "discoveredOn": "1980-06-12",
-      "imageUrl": "https://example.com/salamence.png",
-      "type": "Dragon/Flying",
-      "moves": ["Dragon Breath", "Flamethrower", "Fly"],
-      "habitat": {
-        "id": 102,
-        "name": "Mountain Peaks",
-        "climate": "Cold",
-        "hasCaves": true,
-        "imageUrl": "https://example.com/mountains.png"
-      }
-    },
-    {
-      "id": 3,
-      "name": "Garchomp",
-      "description": "It flies at high speeds and slices foes with its sharp claws.",
-      "powerLevel": 95,
-      "isLegendary": false,
-      "discoveredOn": "1985-09-05",
-      "imageUrl": "https://example.com/garchomp.png",
-      "type": "Dragon/Ground",
-      "moves": ["Earthquake", "Dragon Rush", "Stone Edge"],
-      "habitat": {
-        "id": 103,
-        "name": "Desert Caves",
-        "climate": "Arid",
-        "hasCaves": true,
-        "imageUrl": "https://example.com/desert.png"
-      }
-    },
-    {
-      "id": 4,
-      "name": "Hydreigon",
-      "description": "A brutal Pokémon that attacks anything that moves.",
-      "powerLevel": 92,
-      "isLegendary": false,
-      "discoveredOn": "1988-11-22",
-      "imageUrl": "https://example.com/hydreigon.png",
-      "type": "Dragon/Dark",
-      "moves": ["Dark Pulse", "Dragon Pulse", "Hyper Beam"],
-      "habitat": {
-        "id": 104,
-        "name": "Dark Caves",
-        "climate": "Humid",
-        "hasCaves": true,
-        "imageUrl": "https://example.com/cave.png"
-      }
-    },
-    {
-      "id": 5,
-      "name": "Goodra",
-      "description": "Loves to hug its Trainer, leaving them drenched in slimy goo.",
-      "powerLevel": 80,
-      "isLegendary": false,
-      "discoveredOn": "1995-03-14",
-      "imageUrl": "https://example.com/goodra.png",
-      "type": "Dragon",
-      "moves": ["Muddy Water", "Dragon Pulse", "Iron Tail"],
-      "habitat": {
-        "id": 105,
-        "name": "Swamps",
-        "climate": "Wet",
-        "hasCaves": false,
-        "imageUrl": "https://example.com/swamp.png"
-      }
-    },
-    {
-      "id": 6,
-      "name": "Kommo-o",
-      "description": "It clatters its scales to intimidate opponents.",
-      "powerLevel": 85,
-      "isLegendary": false,
-      "discoveredOn": "1992-04-18",
-      "imageUrl": "https://example.com/kommoo.png",
-      "type": "Dragon/Fighting",
-      "moves": ["Clanging Scales", "Sky Uppercut", "Dragon Tail"],
-      "habitat": {
-        "id": 106,
-        "name": "Rocky Cliffs",
-        "climate": "Harsh",
-        "hasCaves": false,
-        "imageUrl": "https://example.com/cliff.png"
-      }
-    },
-    {
-      "id": 7,
-      "name": "Rayquaza",
-      "description": "It lived for hundreds of millions of years in the ozone layer.",
-      "powerLevel": 120,
-      "isLegendary": true,
-      "discoveredOn": "Unknown",
-      "imageUrl": "https://example.com/rayquaza.png",
-      "type": "Dragon/Flying",
-      "moves": ["Dragon Ascent", "Extreme Speed", "Hyper Beam"],
-      "habitat": {
-        "id": 107,
-        "name": "Sky",
-        "climate": "Unknown",
-        "hasCaves": false,
-        "imageUrl": "https://example.com/sky.png"
-      }
-    },
-    {
-      "id": 8,
-      "name": "Dragapult",
-      "description": "It launches Dreepy like missiles at enemies.",
-      "powerLevel": 93,
-      "isLegendary": false,
-      "discoveredOn": "2000-12-05",
-      "imageUrl": "https://example.com/dragapult.png",
-      "type": "Dragon/Ghost",
-      "moves": ["Phantom Force", "Dragon Darts", "Shadow Ball"],
-      "habitat": {
-        "id": 108,
-        "name": "Ancient Ruins",
-        "climate": "Mystic",
-        "hasCaves": false,
-        "imageUrl": "https://example.com/ruins.png"
-      }
-    },
-    {
-      "id": 9,
-      "name": "Latios",
-      "description": "A highly intelligent Pokémon capable of understanding human speech.",
-      "powerLevel": 100,
-      "isLegendary": true,
-      "discoveredOn": "1523-08-10",
-      "imageUrl": "https://example.com/latios.png",
-      "type": "Dragon/Psychic",
-      "moves": ["Luster Purge", "Dragon Pulse", "Psychic"],
-      "habitat": {
-        "id": 109,
-        "name": "Open Skies",
-        "climate": "Mild",
-        "hasCaves": false,
-        "imageUrl": "https://example.com/open-sky.png"
-      }
-    },
-    {
-      "id": 10,
-      "name": "Latias",
-      "description": "It can communicate with people using telepathy.",
-      "powerLevel": 98,
-      "isLegendary": true,
-      "discoveredOn": "1523-08-10",
-      "imageUrl": "https://example.com/latias.png",
-      "type": "Dragon/Psychic",
-      "moves": ["Mist Ball", "Dragon Breath", "Recover"],
-      "habitat": {
-        "id": 110,
-        "name": "Open Skies",
-        "climate": "Mild",
-        "hasCaves": false,
-        "imageUrl": "https://example.com/open-sky.png"
-      }
+  {
+    "id": 1,
+    "name": "Dragonite",
+    "description": "A kindhearted Pokémon that can fly incredibly fast.",
+    "powerLevel": 90,
+    "isLegendary": false,
+    "discoveredOn": "1965-07-01",
+    "imageUrl": "https://raw.githubusercontent.com/Tromsbonen/Web-ontwikkeling-taak/refs/heads/main/images/dragonite.jpg",
+    "type": "Dragon/Flying",
+    "moves": ["Dragon Claw", "Hurricane", "Thunder Punch"],
+    "habitat": {
+      "id": 101,
+      "name": "Coastal Areas",
+      "climate": "Temperate",
+      "hasCaves": false,
+      "imageUrl": "https://example.com/coastal.png"
     }
-  ]
-  
+  },
+  {
+    "id": 2,
+    "name": "Salamence",
+    "description": "It becomes uncontrollable when it evolves due to its dream of flight coming true.",
+    "powerLevel": 88,
+    "isLegendary": false,
+    "discoveredOn": "1980-06-12",
+    "imageUrl": "https://raw.githubusercontent.com/Tromsbonen/Web-ontwikkeling-taak/refs/heads/main/images/salamence.jpg",
+    "type": "Dragon/Flying",
+    "moves": ["Dragon Breath", "Flamethrower", "Fly"],
+    "habitat": {
+      "id": 102,
+      "name": "Mountain Peaks",
+      "climate": "Cold",
+      "hasCaves": true,
+      "imageUrl": "https://example.com/mountains.png"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Garchomp",
+    "description": "It flies at high speeds and slices foes with its sharp claws.",
+    "powerLevel": 95,
+    "isLegendary": false,
+    "discoveredOn": "1985-09-05",
+    "imageUrl": "https://raw.githubusercontent.com/Tromsbonen/Web-ontwikkeling-taak/refs/heads/main/images/garchomp.jpg",
+    "type": "Dragon/Ground",
+    "moves": ["Earthquake", "Dragon Rush", "Stone Edge"],
+    "habitat": {
+      "id": 103,
+      "name": "Desert Caves",
+      "climate": "Arid",
+      "hasCaves": true,
+      "imageUrl": "https://example.com/desert.png"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Hydreigon",
+    "description": "A brutal Pokémon that attacks anything that moves.",
+    "powerLevel": 92,
+    "isLegendary": false,
+    "discoveredOn": "1988-11-22",
+    "imageUrl": "https://raw.githubusercontent.com/Tromsbonen/Web-ontwikkeling-taak/refs/heads/main/images/hydreigon.jpg",
+    "type": "Dragon/Dark",
+    "moves": ["Dark Pulse", "Dragon Pulse", "Hyper Beam"],
+    "habitat": {
+      "id": 104,
+      "name": "Dark Caves",
+      "climate": "Humid",
+      "hasCaves": true,
+      "imageUrl": "https://example.com/cave.png"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Goodra",
+    "description": "Loves to hug its Trainer, leaving them drenched in slimy goo.",
+    "powerLevel": 80,
+    "isLegendary": false,
+    "discoveredOn": "1995-03-14",
+    "imageUrl": "https://raw.githubusercontent.com/Tromsbonen/Web-ontwikkeling-taak/refs/heads/main/images/goodra.jpg",
+    "type": "Dragon",
+    "moves": ["Muddy Water", "Dragon Pulse", "Iron Tail"],
+    "habitat": {
+      "id": 105,
+      "name": "Swamps",
+      "climate": "Wet",
+      "hasCaves": false,
+      "imageUrl": "https://example.com/swamp.png"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Kommo-o",
+    "description": "It clatters its scales to intimidate opponents.",
+    "powerLevel": 85,
+    "isLegendary": false,
+    "discoveredOn": "1992-04-18",
+    "imageUrl": "https://raw.githubusercontent.com/Tromsbonen/Web-ontwikkeling-taak/refs/heads/main/images/kommo-o.jpg",
+    "type": "Dragon/Fighting",
+    "moves": ["Clanging Scales", "Sky Uppercut", "Dragon Tail"],
+    "habitat": {
+      "id": 106,
+      "name": "Rocky Cliffs",
+      "climate": "Harsh",
+      "hasCaves": false,
+      "imageUrl": "https://example.com/cliff.png"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Rayquaza",
+    "description": "It lived for hundreds of millions of years in the ozone layer.",
+    "powerLevel": 120,
+    "isLegendary": true,
+    "discoveredOn": "Unknown",
+    "imageUrl": "https://raw.githubusercontent.com/Tromsbonen/Web-ontwikkeling-taak/refs/heads/main/images/rayquaza.jpg",
+    "type": "Dragon/Flying",
+    "moves": ["Dragon Ascent", "Extreme Speed", "Hyper Beam"],
+    "habitat": {
+      "id": 107,
+      "name": "Sky",
+      "climate": "Unknown",
+      "hasCaves": false,
+      "imageUrl": "https://example.com/sky.png"
+    }
+  }
+]
