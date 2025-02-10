@@ -3,71 +3,61 @@
       "id": 101,
       "name": "Coastal Areas",
       "climate": "Temperate",
-      "hasCaves": false,
-      "imageUrl": "https://example.com/coastal.png"
+      "hasCaves": false
     },
     {
       "id": 102,
       "name": "Mountain Peaks",
       "climate": "Cold",
-      "hasCaves": true,
-      "imageUrl": "https://example.com/mountains.png"
+      "hasCaves": true
     },
     {
       "id": 103,
       "name": "Desert Caves",
       "climate": "Arid",
-      "hasCaves": true,
-      "imageUrl": "https://example.com/desert.png"
+      "hasCaves": true
     },
     {
       "id": 104,
       "name": "Dark Caves",
       "climate": "Humid",
-      "hasCaves": true,
-      "imageUrl": "https://example.com/cave.png"
+      "hasCaves": true
     },
     {
       "id": 105,
       "name": "Swamps",
       "climate": "Wet",
-      "hasCaves": false,
-      "imageUrl": "https://example.com/swamp.png"
+      "hasCaves": false
     },
     {
       "id": 106,
       "name": "Rocky Cliffs",
       "climate": "Harsh",
-      "hasCaves": false,
-      "imageUrl": "https://example.com/cliff.png"
+      "hasCaves": false
     },
     {
       "id": 107,
       "name": "Sky",
       "climate": "Unknown",
-      "hasCaves": false,
-      "imageUrl": "https://example.com/sky.png"
+      "hasCaves": false
     },
     {
       "id": 108,
       "name": "Ancient Ruins",
       "climate": "Mystic",
-      "hasCaves": false,
-      "imageUrl": "https://example.com/ruins.png"
+      "hasCaves": false
     },
     {
       "id": 109,
       "name": "Open Skies",
       "climate": "Mild",
-      "hasCaves": false,
-      "imageUrl": "https://example.com/open-sky.png"
+      "hasCaves": false
     },
     {
       "id": 110,
       "name": "Deep Ocean",
       "climate": "Cold",
-      "hasCaves": true,
-      "imageUrl": "https://example.com/ocean.png"
+      "hasCaves": true
     }
   ]
   
