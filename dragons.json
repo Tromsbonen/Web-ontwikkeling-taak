@@ -13,8 +13,7 @@
       "id": 101,
       "name": "Coastal Areas",
       "climate": "Temperate",
-      "hasCaves": false,
-      "imageUrl": "https://example.com/coastal.png"
+      "hasCaves": false
     }
   },
   {
@@ -31,8 +30,7 @@
       "id": 102,
       "name": "Mountain Peaks",
       "climate": "Cold",
-      "hasCaves": true,
-      "imageUrl": "https://example.com/mountains.png"
+      "hasCaves": true
     }
   },
   {
@@ -49,8 +47,7 @@
       "id": 103,
       "name": "Desert Caves",
       "climate": "Arid",
-      "hasCaves": true,
-      "imageUrl": "https://example.com/desert.png"
+      "hasCaves": true
     }
   },
   {
@@ -67,8 +64,7 @@
       "id": 104,
       "name": "Dark Caves",
       "climate": "Humid",
-      "hasCaves": true,
-      "imageUrl": "https://example.com/cave.png"
+      "hasCaves": true
     }
   },
   {
@@ -85,8 +81,7 @@
       "id": 105,
       "name": "Swamps",
       "climate": "Wet",
-      "hasCaves": false,
-      "imageUrl": "https://example.com/swamp.png"
+      "hasCaves": false
     }
   },
   {
@@ -103,8 +98,7 @@
       "id": 106,
       "name": "Rocky Cliffs",
       "climate": "Harsh",
-      "hasCaves": false,
-      "imageUrl": "https://example.com/cliff.png"
+      "hasCaves": false
     }
   },
   {
@@ -121,8 +115,58 @@
       "id": 107,
       "name": "Sky",
       "climate": "Unknown",
-      "hasCaves": false,
-      "imageUrl": "https://example.com/sky.png"
+      "hasCaves": false
+    }
+  },
+  {
+    "id": 8,
+    "name": "Haxorus",
+    "description": "Its tusks can cut through steel beams with ease.",
+    "powerLevel": 87,
+    "isLegendary": false,
+    "discoveredOn": "2000-10-31",
+    "imageUrl": "https://raw.githubusercontent.com/Tromsbonen/Web-ontwikkeling-taak/refs/heads/main/images/haxorus.jpg",
+    "type": "Dragon",
+    "moves": ["Dragon Claw", "Iron Tail", "Outrage"],
+    "habitat": {
+      "id": 108,
+      "name": "Forests",
+      "climate": "Temperate",
+      "hasCaves": false
+    }
+  },
+  {
+    "id": 9,
+    "name": "Dragapult",
+    "description": "Launches its young like missiles in battle.",
+    "powerLevel": 93,
+    "isLegendary": false,
+    "discoveredOn": "2019-11-15",
+    "imageUrl": "https://raw.githubusercontent.com/Tromsbonen/Web-ontwikkeling-taak/refs/heads/main/images/dragapult.jpg",
+    "type": "Dragon/Ghost",
+    "moves": ["Dragon Darts", "Phantom Force", "U-turn"],
+    "habitat": {
+      "id": 109,
+      "name": "Marshlands",
+      "climate": "Foggy",
+      "hasCaves": true
+    }
+  },
+  {
+    "id": 10,
+    "name": "Altaria",
+    "description": "Its wings are like cotton clouds, and it hums beautifully.",
+    "powerLevel": 75,
+    "isLegendary": false,
+    "discoveredOn": "2002-05-21",
+    "imageUrl": "https://raw.githubusercontent.com/Tromsbonen/Web-ontwikkeling-taak/refs/heads/main/images/altaria.jpg",
+    "type": "Dragon/Flying",
+    "moves": ["Dragon Breath", "Moonblast", "Sing"],
+    "habitat": {
+      "id": 110,
+      "name": "Sky Meadows",
+      "climate": "Mild",
+      "hasCaves": false
     }
   }
 ]
